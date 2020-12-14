@@ -1,0 +1,22 @@
+[user]
+  email = looshch@loosh.ch
+  name = George Looshch
+[alias]
+  s = status
+  l = log
+  d = diff
+  co = checkout
+  b = branch
+  ba = branch -a
+  c = commit
+  ca = commit -a
+  p = push
+  pf = push -f
+  rir = rebase -i --root
+  cap = !git commit -a && git push
+  caa = commit -a --amend
+  caan = commit -a --amend --no-edit
+  caapf = !git commit -a --amend && git push -f
+  caanpf = !git commit -a --amend --no-edit && git push -f
+[core]
+  editor = nvim
